@@ -1,14 +1,57 @@
 body{
   background: #FF97B0;
   color: #ECEFF1;
+  font-family: Helvetica, sans-serif;
+
+  font-size: 16px;
+  line-height: 1.4;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-family: serif;
+  font-weight: bolder;
+
+}
+a:hover{
+  color: #E6E2E2;
+
+}
+img{
+    max-width: 100%;
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+
 }
 
+h3{
+    text-align: center;
+    color: #EFEAEAC4;
+}
 main {
   display: block;
   margin: auto;
-  width: 1500px;
+
+  max-width:500px;
+
 }
 /* I centered the main tag */
+.text-center{
+    text-align: center;
+
+}
+
+ol{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+}
 
 .center {
   display: block;
@@ -29,7 +72,7 @@ main {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 184px;
+
 }
 
 .center4 {
@@ -63,5 +106,7 @@ main {
 }
 
 .play {
-  margin-left: 450px;
+
+  width:500px;
+
 }
